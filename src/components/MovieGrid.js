@@ -46,6 +46,7 @@ const MovieGrid = ({genre}) => {
                 setTotalPage(data.total_pages);
             });
         }
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [genre, page])
 
     return (
